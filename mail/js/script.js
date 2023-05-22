@@ -1,28 +1,30 @@
-let verifica_iscritti = prompt('Inserisci la tua mail')
+// VARIABILE CON PROMPT
+let verifica_iscritti = prompt('Inserisci la tua mail');
+// VARIABILE FLAG
+let flag = false;
 
-let flag = false
-
-const iscritti = ['rashford@gmail.com', 'Grealish@gmail.com', 'Haaland@gmail.com', 'Fernandes@gmail.com', 'Sancho@gmail.com']
+// ARRAY
+const iscritti = ['rashford@gmail.com', 'Grealish@gmail.com', 'Haaland@gmail.com', 'Fernandes@gmail.com', 'Sancho@gmail.com'];
 console.log(iscritti)
 
-
+// CICLO FOR
 for (let i = 0; i < iscritti.length; i++) {
-
+    // CONDIZIONE 
     if (iscritti[i] === verifica_iscritti) {
-        flag = true
+        flag = true;
 
         
         
     }
 }
-
+// PRIMA CONDIZIONE 
 if (flag === true) {
-    console.log("Complimenti la tua mail risulta valida")
-    let flag = document.getElementById("verifica").innerHTML = ('Complimenti la tua mail risulta valida')
-    
+
+    let flag = document.getElementById("verifica").innerHTML = ('Complimenti la tua mail risulta valida');
+// SECONDA CONDIZIONE   
 } else{
-    console.log("Spiacenti, la tua mail non risulta valida")
-    let flag = document.getElementById("verifica").innerHTML = ('Spiacenti, la tua mail non risulta valida')
+
+    let flag = document.getElementById("verifica").innerHTML = ('Spiacenti, la tua mail non risulta valida');
     
 }
 

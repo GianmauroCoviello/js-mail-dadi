@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../img/flames.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* UTILITIES */
+.container{
+    max-width: 1170px;
+    margin: 50PX auto;
+    
+
+}
+.row{
+    display: flex;
+    
+}
+.col-33{
+    width: calc(100%/3);
+    padding: 20px;
+    color: orangered;
+
+
+
+    
+}
+.text-center{
+    text-align: center;
+}
+#fight{
+    margin-top: 20px;
+    padding: 5px 40px;
+    font-size: 30px;
+    color: rgb(241, 92, 47);
+    background-color: black;
+    border-color: rgb(241, 92, 47);
+    border-radius: 10px;
+}
+#Result{
+    padding: 20px 0;
+    font-size: 35px;
+    color: orangered;
+}
+.black{
+    background-color: black;
+}
+
+.img-col{
+    width: 100%;
+    margin-top: 30px;
+   
+}
+.img-user{
+    width: 90%;
+    filter: invert(100%);
+    margin-top: 30px;
+}
+#vs{
+    width: 350px;
+}
+#computer{
+    font-size: 70px;
+    padding-top: 55px;
+}
+#user{
+    font-size: 70px;
+    padding-top: 55px;
+}
